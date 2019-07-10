@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    word-wrap: none;
+}
+
+.first {
+    min-height: 100%;
+    background-image: url('assets/IMG_2336.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-container {
+    position: relative;
+}
+
+.nav-container > .first {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nav-container > .second {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nav-container > .third {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nav-container > .fourth {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
