@@ -8,37 +8,12 @@ body {
     padding: 0;
 }
 
-.first {
+.bg-image {
     min-height: 100vh;
     background-image: url('assets/1.JPG');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
-
-@keyframes blur {
-    from {
-        filter: blur(0px)
-    }
-    to {
-        filter: blur(5px)
-    }
-}
-
-@keyframes blur-reverse {
-    0% {
-        opacity: 0;
-    }
-    40% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 1;
-        top: calc(20vh);
-    }
-}
-
-.first {
     animation-name: blur;
     animation-delay: 1s;
     animation-duration: 4s;
@@ -71,4 +46,63 @@ body {
 
 .jubilee-container p {
     font-size: 25px;
+}
+
+.arrow-icon {
+    opacity: 0;
+    animation-name: arrow;
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: calc(50vw - 15px);
+    top: 50vh;
+}
+
+.arrow-icon i {
+    font-size: 65px;
+    /* color: #fd7d35; */
+}
+
+@keyframes blur {
+    from {
+        filter: blur(0px)
+    }
+    to {
+        filter: blur(5px)
+    }
+}
+
+@keyframes blur-reverse {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+        top: calc(20vh);
+    }
+}
+
+@keyframes arrow {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+        top: 50vh;
+    }
+    80% {
+        opacity: 1;
+        top: 52vh;
+    }
+    100% {
+        opacity: 1;
+        top: 50vh;
+    }
 }
