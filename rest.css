@@ -7,14 +7,14 @@
 }
 
 .jokes-container {
-    background: url('assets/family.jpg');
+    background: url('assets/jokes.jpg');
 }
 
-.videos-container {
+/* .videos-container {
     background: url('assets/family.jpg');
-}
+} */
 
-.family-container, .hobbies-container, .jokes-container, .videos-container {
+.family-container, .hobbies-container, .jokes-container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -34,4 +34,17 @@
     position: absolute;
     top: 7vh;
     right: 7vw;
+}
+
+.videos-container {
+    min-height: 100vh;
+    position: relative;
+}
+
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
 }
