@@ -1,0 +1,36 @@
+* {
+    font-family: 'Dancing Script', cursive;
+}
+
+.common-container {
+    /* position: relative; */
+}
+
+.container-fluid {
+    min-height: 100vh;
+    /* position: absolute;
+    top: 0px; */
+}
+
+.bg-image {
+    min-height: 100vh;
+    background-image: url('../assets/сказка-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0px)
+}
+
+input, textarea {
+    background-color: #f1f1f1 !important;
+    font-size: 20px !important;
+}
+
+input[type=submit] {
+    background-color: #4CAF50
+}
+
+.greets {
+    color: white;
+    font-size: 25px;
+}
