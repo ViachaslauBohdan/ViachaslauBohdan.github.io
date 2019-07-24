@@ -1,20 +1,23 @@
 .family-container {
-    background: url('assets/family.jpg');
+    background: url('../assets/family.jpg');
 }
 
 .hobbies-container {
-    background: url('assets/hobbies.jpg');
+    background: url('../assets/hobbies.jpg');
 }
 
 .jokes-container {
-    background: url('assets/jokes.jpg');
+    background: url('../assets/jokes.jpg');
 }
+
 
 /* .videos-container {
     background: url('assets/family.jpg');
 } */
 
-.family-container, .hobbies-container, .jokes-container {
+.family-container,
+.hobbies-container,
+.jokes-container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -45,6 +48,6 @@ video {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%; 
+    width: 100%;
     height: 100%;
 }
