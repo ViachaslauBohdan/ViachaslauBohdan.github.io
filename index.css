@@ -2,6 +2,10 @@
     height: 100%;
 } */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
@@ -24,9 +28,11 @@ body {
     animation-duration: 4s;
     animation-fill-mode: forwards;
 }
+
 .start-page-cntainer {
     position: relative;
 }
+
 .jubilee-container {
     display: flex;
     flex-direction: column;
@@ -55,7 +61,13 @@ body {
     font-size: 25px;
 }
 
-.arrow-icon {
+.title-link,
+.title-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.arrow-icon-title {
     opacity: 0;
     animation-name: arrow;
     animation-delay: 5s;
@@ -66,9 +78,20 @@ body {
     top: 50vh;
 }
 
-.arrow-icon i {
+.arrow-icon-title i {
     font-size: 65px;
-    /* color: #fd7d35; */
+    color: black;
+}
+
+.arrow-icon-regular {
+    top: 25vh;
+    right: 23vw;
+    position: absolute;
+}
+
+.arrow-icon-regular i {
+    font-size: 65px;
+    color: white;
 }
 
 @keyframes blur {
