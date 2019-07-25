@@ -14,6 +14,7 @@ ul {
     position: fixed;
     bottom: 20px;
     right: 35px;
+    z-index: 1000;
 }
 li > a {
     text-decoration: underline;

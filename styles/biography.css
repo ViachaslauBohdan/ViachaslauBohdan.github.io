@@ -6,6 +6,12 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+audio {
+    position: fixed;
+    top: 20px;
+    right: 35px;
+}
+
 ul {
     list-style-type: none;
     position: fixed;
@@ -13,7 +19,8 @@ ul {
     right: 35px;
     z-index: 1000;
 }
-li > a {
+
+li>a {
     text-decoration: underline;
     font-size: 15px;
 }
@@ -51,7 +58,6 @@ body {
     height: auto;
 }
 
-
 /* Blocks set-up */
 
 nav {
@@ -61,7 +67,7 @@ nav {
 }
 
 .intro {
-    font-size: 2rem;
+    font-size: 1.75rem;
     color: #484848;
 }
 
