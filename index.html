@@ -35,28 +35,19 @@
                 <h1><a href=biography.html target="blank" class="title-link">Биография и семья</a></h1>
             </div>
             <div class="arrow-icon-regular">
-                <a href="#hobbies">
-                    <i class="fa fa-angle-down"></i>
-                </a>
-            </div>
-        </div>
-        <div class="hobbies-container" id="hobbies">
-            <div class="desc-container">
-                <h1>Увлечения</h1>
-            </div>
-            <div class="arrow-icon-regular">
                 <a href="#jokes">
                     <i class="fa fa-angle-down"></i>
                 </a>
             </div>
         </div>
         <div class="jokes-container" id="jokes">
-            <div class="desc-container">
-                <h1>Шутки</h1>
+            <div class="joke-quote-container" onclick="newTitle()">
+                <h1 id="joke-target"><a style="cursor:pointer;">Шутки</a></h1>
+                <h1 class="joke-quote-author"><a style="cursor:pointer;">Валера</a></h1>
             </div>
-            <div class="arrow-icon-regular">
+            <div class="arrow-icon-joke">
                 <a href="#videos">
-                    <i class="fa fa-angle-down" style="color:black"></i>
+                    <i class="fa fa-angle-down"></i>
                 </a>
             </div>
         </div>
@@ -68,6 +59,16 @@
             <div class="desc-container">
                 <h1>Видео</h1>
             </div>
+            <div class="arrow-icon-regular">
+                <a href="#wishes">
+                    <i class="fa fa-angle-down"></i>
+                </a>
+            </div>
+        </div>
+        <div class="wishes-container" id="wishes">
+            <div class="desc-container" style="top: 30vh;">
+                <h1><a href="form.html" target="blank" class="title-link">Принимаю поздравления</a></h1>
+            </div>
         </div>
     </div>
 
@@ -75,6 +76,7 @@
     <script src="js/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom/index.js"></script>
 </body>
 
 </html>

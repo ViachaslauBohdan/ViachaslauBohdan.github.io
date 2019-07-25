@@ -85,7 +85,18 @@ body {
     position: absolute;
 }
 
+.arrow-icon-joke {
+    top: 50vh;
+    right: 50vw;
+    position: absolute;
+}
+
 .arrow-icon-regular i {
+    font-size: 65px;
+    color: white;
+}
+
+.arrow-icon-joke i {
     font-size: 65px;
     color: white;
 }
