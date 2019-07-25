@@ -6,6 +6,18 @@ body {
     font-family: 'Dancing Script', cursive;
 }
 
+ul {
+    list-style-type: none;
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+    z-index: 1000;
+}
+li > a {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
 body {
     box-sizing: border-box;
     font-size: 18px;

@@ -6,6 +6,17 @@
     /* position: relative; */
 }
 
+ul {
+    list-style-type: none;
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+}
+li > a {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
 .container-fluid {
     min-height: 100vh;
     /* position: absolute;
