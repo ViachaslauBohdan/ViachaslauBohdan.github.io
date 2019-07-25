@@ -1,12 +1,13 @@
 
 const handleForm = function (event) {
+
     // event.preventDefault()
 
     const name = $(".name").val()
     const wishes = $("textarea").val()
 
-    const allNames = window.localStorage.getItem('name')
-    const allWishes = window.localStorage.getItem('wishes')
+    const allNames = localStorage.getItem('name')
+    const allWishes = localStorage.getItem('wishes')
 
     if (!allNames) {
         localStorage.setItem('name', `${name.replace(';', '')}`)
