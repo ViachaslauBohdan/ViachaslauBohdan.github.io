@@ -3,31 +3,26 @@
 }
 
 .wishes-container {
-    background: url('../assets/getting-wishes.jpg');    
+    background: url('../assets/getting-wishes.jpg');
 }
-
-
 
 .jokes-container {
     background: url('../assets/jokes-bg.jpg');
     cursor: pointer;
 }
 
-.joke-quote-author{
+.joke-quote-author {
     text-align: right;
     margin-right: 10%;
     font-style: italic;
     padding-top: 3%;
 }
 
-
 /* .videos-container {
     background: url('assets/family.jpg');
 } */
 
-.family-container,
-.wishes-container,
-.jokes-container {
+.family-container, .wishes-container, .jokes-container {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -62,16 +57,22 @@
     right: 7vw;
 }
 
+.videos-container-fixed {
+    left: 20px;
+    bottom: 20px;
+    position: fixed;
+    z-index: 1000;
+}
 
 .videos-container {
     min-height: 100vh;
     position: relative;
 }
 
-video {
+#myVideo {
     position: absolute;
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
