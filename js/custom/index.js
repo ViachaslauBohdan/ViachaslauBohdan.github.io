@@ -17,10 +17,15 @@ var titles = [
     'Я пошел за селфи-палкой, я пошел-пошел, а палку не нашел.'
 
 ];
+let index = 0;
+target.innerText = titles[index];
+console.log(index,titles[index])
 
 function newTitle () {
-    var i = (Math.random() * titles.length) | 0;
-    target.innerText = titles[i];
+    // var i = (Math.random() * titles.length) | 0;
+    index = index < 14 ? index + 1 : 0;
+    console.log(index,titles[index])
+    target.innerText = titles[index];
 }
 
-newTitle();
+// newTitle();
